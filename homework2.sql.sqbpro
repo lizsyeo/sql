@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/lizyeo/DSI/sql/05_sql/farmersmarket.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3698"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/><expanded_item id="4" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainvendor"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="booth" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="84"/><column index="2" value="101"/><column index="3" value="300"/><column index="4" value="68"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customer" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="73"/><column index="2" value="119"/><column index="3" value="116"/><column index="4" value="78"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customer_purchases" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="2" mode="1"/></sort><column_widths><column index="1" value="65"/><column index="2" value="60"/><column index="3" value="74"/><column index="4" value="73"/><column index="5" value="51"/><column index="6" value="148"/><column index="7" value="96"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="market_date_info" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="69"/><column index="3" value="77"/><column index="4" value="73"/><column index="5" value="105"/><column index="6" value="99"/><column index="7" value="80"/><column index="8" value="97"/><column index="9" value="102"/><column index="10" value="105"/><column index="11" value="97"/><column index="12" value="103"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="product" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="207"/><column index="3" value="81"/><column index="4" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="product_category" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="116"/><column index="2" value="158"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="temp" name="new_new_vendor_inventory" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="51"/><column index="3" value="60"/><column index="4" value="65"/><column index="5" value="80"/><column index="6" value="51"/><column index="7" value="86"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="temp" name="new_vendor_inventory" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="51"/><column index="3" value="60"/><column index="4" value="65"/><column index="5" value="80"/><column index="6" value="51"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vendor" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="60"/><column index="2" value="173"/><column index="3" value="157"/><column index="4" value="143"/><column index="5" value="140"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vendor_booth_assignments" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="60"/><column index="2" value="84"/><column index="3" value="74"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vendor_inventory" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="51"/><column index="3" value="60"/><column index="4" value="65"/><column index="5" value="80"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">--SELECT * FROM product
+--SELECT 5*10, 1+1, 2024 AS this_year
+
+--SELECT customer_first_name, customer_last_name
+--FROM customer
+
+--SELECT * from customer WHERE customer_zip like '22%'
+
+-- CASE
+
+/*SELECT *,
+	CASE WHEN cost_to_customer_per_qty &lt; 1.00 THEN cost_to_customer_per_qty*5
+		ELSE cost_to_customer_per_qty 
+	    END AS inflation
+FROM customer_purchases;
+*/
+
+/* SELECT DISTINCT vendor_id, product_id, customer_id
+FROM customer_purchases
+ORDER BY vendor_id, product_id, customer_id
+*/
+
+/*SELECT DISTINCT vendor_id, product_id, customer_id, market_date
+from customer_purchases
+WHERE market_date BETWEEN '2019-04-04' AND '2019-04-30'
+ORDER BY vendor_id, product_id, customer_id
+*/
+
+/*SELECT * from product
+INNER JOIN product_category
+ on product.product_category_id = product_category.product_category_id
+ */
+ 
+ 
+ --INNER JOIN
+/* SELECT * from vendor v
+ INNER JOIN vendor_inventory vi
+ on v.vendor_id = vi.vendor_id
+ */
+ 
+ 
+ --LEFT JOIN
+ /*SELECT * FROM product_category AS pc
+ LEFT JOIN product AS p
+ ON pc.product_category_id = p.product_category_id
+ */
+ 
+ -- MULTIPLE TABLE JOINS
+ 
+ /*SELECT * FROM customer_purchases cp
+ INNER JOIN product p
+	on cp.product_id = p.product_id
+INNER JOIN vendor v
+	on v.vendor_id = cp.vendor_id
+INNER JOIN product_category pc
+	on p.product_category_id = pc.product_category_id
+	*/
+	
+  SELECT  cp.*, p.*, v.*, product_category_name FROM  customer_purchases cp
+ INNER JOIN product p
+	on cp.product_id = p.product_id
+INNER JOIN vendor v
+	on v.vendor_id = cp.vendor_id
+INNER JOIN product_category pc
+	on p.product_category_id = pc.product_category_id</sql><sql name="SQL 3">--SELECT
+/* 1. Write a query that returns everything in the customer table. */
+
+SELECT * FROM customer
+
+
+/* 2. Write a query that displays all of the columns and 10 rows from the cus- tomer table, 
+sorted by customer_last_name, then customer_first_ name. */
+
+SELECT * FROM customer
+ORDER BY customer_last_name, customer_first_name
+LIMIT 10
+
+
+
+
+--WHERE
+/* 1. Write a query that returns all customer purchases of product IDs 4 and 9. */
+-- option 1
+SELECT * from customer_purchases
+WHERE product_id= 4 OR product_id = 9
+
+-- option 2
+
+/*2. Write a query that returns all customer purchases and a new calculated column 'price' (quantity * cost_to_customer_per_qty), 
+filtered by vendor IDs between 8 and 10 (inclusive) using either:
+	1.  two conditions using AND
+	2.  one condition using BETWEEN
+*/
+-- option 1
+SELECT customer_id, vendor_id, market_date, quantity, cost_to_customer_per_qty, (quantity*cost_to_customer_per_qty) AS price
+FROM customer_purchases
+WHERE vendor_id  &gt;= 8 AND 
+vendor_id &lt;= 10
+
+-- option 2
+SELECT customer_id, vendor_id, market_date, quantity, cost_to_customer_per_qty, (quantity*cost_to_customer_per_qty) AS price
+FROM customer_purchases
+WHERE vendor_id  BETWEEN 8 AND 10
+
+
+--CASE
+/* 1. Products can be sold by the individual unit or by bulk measures like lbs. or oz. 
+Using the product table, write a query that outputs the product_id and product_name
+columns and add a column called prod_qty_type_condensed that displays the word “unit” 
+if the product_qty_type is “unit,” and otherwise displays the word “bulk.” */
+SELECT product_id, product_name, 
+CASE WHEN product_qty_type = 'unit' THEN 'unit'
+ELSE 'bulk'
+END AS prod_qty_type_condensed
+FROM product;
+
+/* 2. We want to flag all of the different types of pepper products that are sold at the market. 
+add a column to the previous query called pepper_flag that outputs a 1 if the product_name 
+contains the word “pepper” (regardless of capitalization), and otherwise outputs 0. */
+SELECT product_id, product_name, 
+CASE WHEN product_qty_type = 'unit' THEN 'unit'
+ELSE 'bulk'
+END AS prod_qty_type_condensed,
+
+CASE WHEN LOWER(product_name) LIKE '%pepper%' THEN 1
+ELSE 0
+END AS pepper_flag
+FROM product;
+
+--JOIN
+/* 1. Write a query that INNER JOINs the vendor table to the vendor_booth_assignments table on the 
+vendor_id field they both have in common, and sorts the result by vendor_name, then market_date. */
+SELECT vendor_name, market_date FROM vendor v
+INNER JOIN vendor_booth_assignments vba
+ON v.vendor_id = vba.vendor_id
+ORDER BY vendor_name, market_date;
+
+
+</sql><sql name="SQL 4">--sum and avg
+
+/*SELECT market_date, customer_id,
+sum(quantity*cost_to_customer_per_qty) AS cost
+FROM customer_purchases
+GROUP BY market_date, customer_id
+*/
+
+
+--JOIN And get the highest avg cost 
+/*SELECT customer_first_name, customer_last_name,
+avg(quantity*cost_to_customer_per_qty) AS avg_cost
+
+FROM customer_purchases cp
+INNER JOIN customer c
+on c.customer_id = cp.customer_id
+
+GROUP BY customer_first_name, customer_last_name
+ORDER BY c.customer_first_name ASC, avg_cost DESC
+*/
+
+
+--MOST expensive product
+
+-- SELECT product_name, max(original_price)
+-- FROM product as p
+-- JOIN vendor_inventory AS vi
+-- 	ON p.product_id = vi.product_id
+	
+--CHEAPEST product fr different qty type
+
+-- SELECT product_name, min(original_price), product_qty_type
+-- FROM product as p
+-- JOIN vendor_inventory AS vi
+-- 	ON p.product_id = vi.product_id
+-- 
+-- GROUP BY product_qty_type
+	
+--ARITHMETIC
+
+-- SELECT DISTINCT
+-- cost_to_customer_per_qty, CAST(cost_to_customer_per_qty AS INT)/2,
+-- FLOOR(10.5),
+-- POWER(2,4),
+-- pi(),
+-- round(10.5),
+-- POWER(cost_to_customer_per_qty,2(
+-- FROM customer_purchases
+
+
+--HAVING
+-- 
+-- SELECT customer_id, market_date,
+-- sum(quantity*cost_to_customer_per_qty) AS cost 
+-- FROM customer_purchases as cp
+-- 
+-- WHERE customer_id = 1 OR customer_id = 3
+-- AND product_id = 8
+-- 
+-- GROUP BY customer_id, market_date
+-- 
+-- HAVING cost&gt;10
+
+
+-- subqueries
+-- &quot;what's the single item that has been purchased in the greatest qty&quot;
+
+	
+-- SELECT cp.customer_id, 
+-- MAX(cp.quantity) AS max_quantity
+-- FROM 
+-- customer_purchases AS cp
+-- GROUP BY 
+-- cp.customer_id
+-- ORDER BY max_quantity DESC
+
+--what zip code have had at least 1 customer spend 3000 at the farmers market?
+
+SELECT customer_zip, 
+FROM customer
+WHERE customer_id IN 
+(
+
+SELECT customer_id
+FROM customer_purchases
+GROUP BY customer_id
+HAVING sum(quantity*cost_to_customer_per_qty) &gt;=3000
+);
+
+SELECT DISTINCT customer_zip
+
+FROM customer
+
+WHERE customer_id IN (
+			SELECT customer_id--,SUM(quantity*cost_to_customer_per_qty)
+			FROM customer_purchases
+
+			GROUP BY customer_id
+			HAVING SUM(quantity*cost_to_customer_per_qty) &gt;= 3000
+		);
+		
+-- whats the name of the vendor who sells pie
+
+SELECT DISTINCT vendor_name
+
+FROM vendor v
+JOIN vendor_inventory as vi
+	ON v.vendor_id = vi.vendor_id
+
+WHERE product_id IN (
+
+		SELECT product_id
+
+		FROM product
+		WHERE product_name LIKE '%pie%'
+		
+	)
+  
+  
+  -- temp tables
+ -- if a table named &quot;new_vendor_inventory&quot; exists, delete it, else do NOTHING
+ 
+ DROP TABLE IF EXISTS new_vendor_inventory;
+ CREATE TEMP TABLE  new_vendor_inventory AS
+ 
+ --definition of new_vendor_inventory
+ SELECT *, original_price *5 as inflation
+ FROM vendor_inventory;
+  
+  
+  DROP TABLE IF EXISTS new_new_vendor_inventory;
+  CREATE TEMP TABLE new_new_vendor_inventory as
+  SELECT *, inflation*2 as super_inflation
+  FROM new_vendor_inventory;
+  
+  -- CTE
+  
+--   
+--   WITH vendor_daily_sales AS (
+-- 	SELECT md.market_date
+-- 	,market_day
+-- 	,market_week
+-- 	,market_year
+-- 	,vendor_name
+-- 	,SUM(quantity*cost_to_customer_per_qty) AS sales
+-- 	
+-- 	FROM market_date_info as md
+-- 	JOIN customer_purchases cp 
+-- 		ON md.market_date = cp.market_date
+-- 	JOIN vendor v 
+-- 		ON cp.vendor_id = v.vendor_id
+-- 	
+-- 	GROUP by  
+-- 	    md.market_date, 
+--         md.market_day,
+--         md.market_week,
+--         md.market_year,
+--         v.vendor_name
+-- )
+-- SELECT * 
+-- FROM vendor_daily_sales;  
+
+
+--dates
+
+SELECT DISTINCT
+date ('now'), time(), datetime(),
+strftime('%Y-%m-%d','2024-05-20','+50 days') as the_future,
+market_date,
+strftime('%Y/%m/%d',market_date, '+50 days','-1 year')
+FROM market_date_info;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  </sql><current_tab id="1"/></tab_sql></sqlb_project>
