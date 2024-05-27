@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/lizyeo/DSI/sql/05_sql/farmersmarket.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3698"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/><expanded_item id="4" parent="1"/></tab_structure><tab_browse><current_table name="4,13:tempproduct_units"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="booth" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="84"/><column index="2" value="101"/><column index="3" value="300"/><column index="4" value="68"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customer" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="73"/><column index="2" value="119"/><column index="3" value="116"/><column index="4" value="78"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customer_purchases" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="2" mode="1"/></sort><column_widths><column index="1" value="65"/><column index="2" value="60"/><column index="3" value="74"/><column index="4" value="73"/><column index="5" value="51"/><column index="6" value="148"/><column index="7" value="96"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="market_date_info" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="69"/><column index="3" value="77"/><column index="4" value="73"/><column index="5" value="105"/><column index="6" value="99"/><column index="7" value="80"/><column index="8" value="97"/><column index="9" value="102"/><column index="10" value="105"/><column index="11" value="97"/><column index="12" value="103"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="new_customer_purchases" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="60"/><column index="3" value="74"/><column index="4" value="73"/><column index="5" value="51"/><column index="6" value="148"/><column index="7" value="96"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="product" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="207"/><column index="3" value="81"/><column index="4" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="product_category" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="116"/><column index="2" value="158"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="temp" name="new_new_vendor_inventory" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="51"/><column index="3" value="60"/><column index="4" value="65"/><column index="5" value="80"/><column index="6" value="51"/><column index="7" value="86"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="temp" name="new_vendor" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="51"/><column index="3" value="60"/><column index="4" value="65"/><column index="5" value="80"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="temp" name="new_vendor_inventory" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="51"/><column index="3" value="60"/><column index="4" value="65"/><column index="5" value="80"/><column index="6" value="51"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="temp" name="product_units" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="65"/><column index="2" value="207"/><column index="3" value="76"/><column index="4" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vendor" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="60"/><column index="2" value="173"/><column index="3" value="157"/><column index="4" value="143"/><column index="5" value="140"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vendor_booth_assignments" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="60"/><column index="2" value="84"/><column index="3" value="74"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vendor_daily_sales" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vendor_inventory" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="74"/><column index="2" value="51"/><column index="3" value="60"/><column index="4" value="65"/><column index="5" value="80"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="zip_data" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="67"/><column index="2" value="149"/><column index="3" value="121"/><column index="4" value="101"/><column index="5" value="96"/><column index="6" value="113"/><column index="7" value="48"/><column index="8" value="57"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 3">--SELECT
+/* 1. Write a query that returns everything in the customer table. */
+
+SELECT * FROM customer
+
+
+/* 2. Write a query that displays all of the columns and 10 rows from the cus- tomer table, 
+sorted by customer_last_name, then customer_first_ name. */
+
+SELECT * FROM customer
+ORDER BY customer_last_name, customer_first_name
+LIMIT 10
+
+
+
+
+--WHERE
+/* 1. Write a query that returns all customer purchases of product IDs 4 and 9. */
+-- option 1
+SELECT * from customer_purchases
+WHERE product_id= 4 OR product_id = 9
+
+-- option 2
+
+/*2. Write a query that returns all customer purchases and a new calculated column 'price' (quantity * cost_to_customer_per_qty), 
+filtered by vendor IDs between 8 and 10 (inclusive) using either:
+	1.  two conditions using AND
+	2.  one condition using BETWEEN
+*/
+-- option 1
+SELECT customer_id, vendor_id, market_date, quantity, cost_to_customer_per_qty, (quantity*cost_to_customer_per_qty) AS price
+FROM customer_purchases
+WHERE vendor_id  &gt;= 8 AND 
+vendor_id &lt;= 10
+
+-- option 2
+SELECT customer_id, vendor_id, market_date, quantity, cost_to_customer_per_qty, (quantity*cost_to_customer_per_qty) AS price
+FROM customer_purchases
+WHERE vendor_id  BETWEEN 8 AND 10
+
+
+--CASE
+/* 1. Products can be sold by the individual unit or by bulk measures like lbs. or oz. 
+Using the product table, write a query that outputs the product_id and product_name
+columns and add a column called prod_qty_type_condensed that displays the word “unit” 
+if the product_qty_type is “unit,” and otherwise displays the word “bulk.” */
+SELECT product_id, product_name, 
+CASE WHEN product_qty_type = 'unit' THEN 'unit'
+ELSE 'bulk'
+END AS prod_qty_type_condensed
+FROM product;
+
+/* 2. We want to flag all of the different types of pepper products that are sold at the market. 
+add a column to the previous query called pepper_flag that outputs a 1 if the product_name 
+contains the word “pepper” (regardless of capitalization), and otherwise outputs 0. */
+SELECT product_id, product_name, 
+CASE WHEN product_qty_type = 'unit' THEN 'unit'
+ELSE 'bulk'
+END AS prod_qty_type_condensed,
+
+CASE WHEN LOWER(product_name) LIKE '%pepper%' THEN 1
+ELSE 0
+END AS pepper_flag
+FROM product;
+
+--JOIN
+/* 1. Write a query that INNER JOINs the vendor table to the vendor_booth_assignments table on the 
+vendor_id field they both have in common, and sorts the result by vendor_name, then market_date. */
+SELECT vendor_name, market_date FROM vendor v
+INNER JOIN vendor_booth_assignments vba
+ON v.vendor_id = vba.vendor_id
+ORDER BY vendor_name, market_date;
+
+
+</sql><sql name="SQL 8">-- AGGREGATE
+/* 1. Write a query that determines how many times each vendor has rented a booth 
+at the farmer’s market by counting the vendor booth assignments per vendor_id. */
+SELECT v.vendor_id, v.vendor_name, COUNT(vba.vendor_id) AS booth_rental_count
+FROM vendor v
+LEFT JOIN vendor_booth_assignments vba
+ON v.vendor_id = vba.vendor_id
+GROUP BY v.vendor_id, v.vendor_name
+
+
+/* 2. The Farmer’s Market Customer Appreciation Committee wants to give a bumper 
+sticker to everyone who has ever spent more than $2000 at the market. Write a query that generates a list 
+of customers for them to give stickers to, sorted by last name, then first name. 
+
+HINT: This query requires you to join two tables, use an aggregate function, and use the HAVING keyword. */
+
+SELECT  c.customer_id, 
+c.customer_first_name, 
+c.customer_last_name, 
+SUM(cp.quantity*cp.cost_to_customer_per_qty) AS total_spent --create a new column to calculate total amount spent
+FROM customer_purchases cp
+LEFT JOIN customer c
+ON cp.customer_id = c.customer_id
+GROUP BY c.customer_id, c.customer_first_name, customer_last_name
+HAVING total_spent &gt; 2000
+ORDER BY c.customer_last_name, c.customer_first_name; --sort by last name, first name
+
+
+
+--Temp Table
+/* 1. Insert the original vendor table into a temp.new_vendor and then add a 10th vendor: 
+Thomass Superfood Store, a Fresh Focused store, owned by Thomas Rosenthal
+
+HINT: This is two total queries -- first create the table from the original, then insert the new 10th vendor. 
+When inserting the new vendor, you need to appropriately align the columns to be inserted 
+(there are five columns to be inserted, I've given you the details, but not the syntax) 
+
+-&gt; To insert the new row use VALUES, specifying the value you want for each column:
+VALUES(col1,col2,col3,col4,col5) 
+*/
+ DROP TABLE IF EXISTS new_vendor;
+ CREATE TEMP TABLE  new_vendor AS
+SELECT *FROM vendor;
+  
+ INSERT INTO new_vendor (vendor_id, vendor_name, vendor_type, vendor_owner_first_name, vendor_owner_last_name)
+ VALUES (10, 'Thomass Superfood Store', 'Fresh Focused', 'Thomas','Rosenthal');
+
+
+-- Date
+/*1. Get the customer_id, month, and year (in separate columns) of every purchase in the customer_purchases table.
+
+HINT: you might need to search for strfrtime modifers sqlite on the web to know what the modifers for month 
+and year are! */
+
+SELECT customer_id, 
+strftime('%m', market_date) AS month,
+strftime('%Y', market_date) AS year
+FROM customer_purchases;
+
+
+/* 2. Using the previous query as a base, determine how much money each customer spent in April 2019. 
+Remember that money spent is quantity*cost_to_customer_per_qty. 
+
+HINTS: you will need to AGGREGATE, GROUP BY, and filter...
+but remember, STRFTIME returns a STRING for your WHERE statement!! */
+
+SELECT  c.customer_id, 
+c.customer_first_name, 
+c.customer_last_name, 
+SUM(cp.quantity*cp.cost_to_customer_per_qty) AS total_spent --create a new column to calculate total amount spent
+FROM customer_purchases cp
+LEFT JOIN customer c
+ON cp.customer_id = c.customer_id
+WHERE strftime('%Y-%m', market_date) = '2019-04'
+GROUP BY c.customer_id, c.customer_first_name, c.customer_last_name
+ORDER BY  total_spent DESC, c.customer_last_name, c.customer_first_name; 
+</sql><sql name="SQL 9">--May 21 tues
+
+-- IFNULL and coalesce + nullif
+SELECT *, IFNULL(product_size, 'Unknown') from product
+
+--less meaninful
+SELECT*, IFNULL (product_size, product_category_id) as product_size
+,IFNULL (product_size, product_qty_type) --NULL
+,coalesce (product_size, product_qty_type, 'missing')
+FROM product;
+
+--NULLIF 
+SELECT *,
+IFNULL(product_size,'Unknown') as product_size
+
+--nullif
+,NULLIF(product_size,'') -- findinv values in the product_size column that &quot;blank&quot; strings and setting them to null if they are blank
+
+
+from product
+
+--IFNULL and coalesce + NULLIF
+
+SELECT *,
+IFNULL(product_size,'Unknown')
+
+--less meaningful
+,IFNULL(product_size,product_category_id) as product_size
+,IFNULL(product_size,product_qty_type) -- NULL NULL
+,coalesce(product_size,product_qty_type,'missing')
+
+FROM product;
+
+-- from code share
+SELECT *,
+IFNULL(product_size,'Unknown') as product_size
+
+--nullif
+,NULLIF(product_size,'') -- findinv values in the product_size column that &quot;blank&quot; strings and setting them to null if they are blank
+
+
+from product
+
+WHERE 1=1
+--AND product_size is null -- filter only null values (no blanks
+AND NULLIF(product_size,'') IS NULL -- filtering rows BOTH null and blank
+
+DROP TABLE IF EXISTS temp.budgets; 
+CREATE TEMP TABLE IF NOT EXISTS temp.budgets (budget STRING, current_year INT, previous_year INT);
+
+INSERT INTO temp.budgets VALUES ('software',1000,1000), ('candles',300,500);
+
+SELECT --*, 
+
+--NULLIF(current_year, previous_year)
+--,COALESCE(NULLIF(current_year, previous_year),'0.00')
+AVG(COALESCE(NULLIF(current_year, previous_year),'0.00'))
+
+FROM budgets
+
+
+-- windowed functions
+
+-- what product has the highest price per vendor
+SELECT*
+
+FROM (
+	SELECT vendor_id, market_date, product_id, original_price, row_number() OVER (PARTITION BY vendor_id ORDER BY original_price DESC) as price_rank
+	from vendor_inventory
+	)x
+WHERE x.price_rank = 1
+
+---
+create temp table if not exists temp.row_rank_dense
+
+(
+
+emp_id INT,
+
+salary int
+
+);
+
+
+INSERT INTO temp.row_rank_dense
+
+VALUES(1,200000),
+
+        (2,200000),
+
+        (3, 160000),
+
+    (4, 120000),
+
+    (5, 125000),
+
+    (6, 165000),
+
+    (7, 230000),
+
+    (8, 100000),
+
+    (9, 165000),
+
+    (10, 100000);
+
+-- diff between rank, row_number, dense_rank
+SELECT*,
+rank() OVER(ORDER BY salary DESC) AS [RANK], 
+row_number() OVER (ORDER BY salary DESC) AS [ROW_NUMBER],
+DENSE_RANK() OVER( ORDER BY salary DESC) AS [DENSE_RANK]
+FROM temp.row_rank_dense
+
+
+-- ntile (4,5,100)
+-- bucket daily sales
+
+SELECT*
+FROM(
+	SELECT
+	md.market_date,
+	market_day,
+	market_week,
+	market_year,
+	vendor_name,
+	sum(quantity*cost_to_customer_per_qty) AS sales
+	
+	FROM customer_purchases cp
+	JOIN market_date_info as md
+		on cp.market_date = md.market_date
+	JOIN vendor v
+		on v.vendor_id = cp.vendor_id
+	
+	GROUP BY md.market_date, v.vendor_id
+	
+---nthile
+
+SELECT *
+,NTILE(4) OVER(PARTITION BY vendor_name ORDER BY sales ASC) as quartile
+,NTILE(5) OVER(PARTITION BY vendor_name ORDER BY sales ASC) as quintile
+,NTILE(100) OVER(PARTITION BY vendor_name ORDER BY sales ASC) as percentile
+		
+FROM (
+
+	SELECT
+	md.market_date
+	,market_day
+	,market_week
+	,market_year
+	,vendor_name
+	,SUM(quantity*cost_to_customer_per_qty) AS sales
+	
+	
+	FROM customer_purchases cp -- gets sales details
+	JOIN market_date_info as md -- gets all the date columns
+		ON cp.market_date = md.market_date
+	JOIN vendor v -- gets the vendor name
+		ON v.vendor_id = cp.vendor_id
+	
+	GROUP BY md.market_date, v.vendor_id
+
+
+	) x
+
+	
+	--FULL OUTER JOIN WITH A UNION
+
+DROP TABLE IF EXISTS temp.store1; 
+CREATE TEMP TABLE IF NOT EXISTS temp.store1
+(
+costume TEXT,
+quantity INT
+);
+
+INSERT INTO temp.store1
+VALUES(&quot;tiger&quot;,6),
+        (&quot;elephant&quot;,2),
+        (&quot;princess&quot;, 4);
+
+
+DROP TABLE IF EXISTS temp.store2;
+CREATE TEMP TABLE IF NOT EXISTS temp.store2
+(
+costume TEXT,
+quantity INT
+);
+
+INSERT INTO temp.store2
+VALUES(&quot;tiger&quot;,2),
+	(&quot;dancer&quot;,7),
+	(&quot;superhero&quot;, 5);
+	
+SELECT s1.costume, s1.quantity as store1_quantity, s2.quantity as store2_quantity
+
+FROM store1 s1
+LEFT JOIN store2 s2 on s1.costume = s2.costume
+
+UNION ALL
+
+SELECT s2.costume, s1.quantity, s2.quantity
+FROM store2 s2
+LEFT JOIN store1 s1 on s2.costume = s1.costume
+WHERE s1.quantity is NULL
+
+
+</sql><sql name="SQL 10">--- hw 4 Elizabeth Yeo
+
+-- COALESCE
+/* 1. Our favourite manager wants a detailed long list of products, but is afraid of tables! 
+We tell them, no problem! We can produce a list with all of the appropriate details. 
+
+Using the following syntax you create our super cool and not at all needy manager a list:
+
+SELECT 
+product_name || ', ' || product_size|| ' (' || product_qty_type || ')'
+FROM product
+
+But wait! The product table has some bad data (a few NULL values). 
+Find the NULLs and then using COALESCE, replace the NULL with a 
+blank for the first problem, and 'unit' for the second problem. 
+
+HINT: keep the syntax the same, but edited the correct components with the string. 
+The `||` values concatenate the columns into strings. 
+Edit the appropriate columns -- you're making two edits -- and the NULL rows will be fixed. 
+All the other rows will remain the same.) */
+
+
+
+
+--Windowed Functions
+/* 1. Write a query that selects from the customer_purchases table and numbers each customer’s  
+visits to the farmer’s market (labeling each market date with a different number). 
+Each customer’s first visit is labeled 1, second visit is labeled 2, etc. 
+
+You can either display all rows in the customer_purchases table, with the counter changing on
+each new market date for each customer, or select only the unique market dates per customer 
+(without purchase details) and number those visits. 
+HINT: One of these approaches uses ROW_NUMBER() and one uses DENSE_RANK(). */
+
+
+/* 2. Reverse the numbering of the query from a part so each customer’s most recent visit is labeled 1, 
+then write another query that uses this one as a subquery (or temp table) and filters the results to 
+only the customer’s most recent visit. */
+
+
+/* 3. Using a COUNT() window function, include a value along with each row of the 
+customer_purchases table that indicates how many different times that customer has purchased that product_id. */</sql><sql name="hw4">-- may 22
+-- insert, UPDATE, DELETE
+
+DROP TABLE IF EXISTS temp.product_expanded;
+CREATE TEMP TABLE product_expanded AS
+	SELECT * FROM product;
+	
+INSERT INTO product_expanded
+VALUES(26, 'Almonds','1 lb', 1, 'lbs');
+
+UPDATE product_expanded
+SET product_size = '1/2 lb'
+-- SELECT * FROM product_expanded
+WHERE product_id = 26;
+
+select * from product_expanded
+
+-- DELETE From product_expanded
+DELETE FROM product_expanded
+WHERE product_id = 26;
+
+SELECT
+
+ FROM product_expanded
+
+
+
+-- VIEW 1
+
+DROP VIEW IF EXISTS vendor_daily_sales;
+CREATE VIEW IF NOT EXISTS vendor_daily_sales AS
+	SELECT 
+md.market_date,
+md.market_day,
+md.market_week,
+md.market_year,
+vendor_name,
+sum(quantity*cost_to_customer_per_qty) AS sales
+	FROM customer_purchases cp
+	INNER JOIN market_date_info md
+		ON cp.market_date = md.market_date
+	INNER JOIN vendor v
+		ON cp.vendor_id = v.vendor_id
+		
+	WHERE md.market_date = date('now')
+	
+	GROUP BY 
+	    md.market_date, 
+        md.market_day, 
+        md.market_week, 
+        md.market_year, 
+        v.vendor_name;
+		
+	
+-- VIEW 2
+DROP VIEW IF EXISTS vendor_daily_sales;
+CREATE VIEW IF NOT EXISTS vendor_daily_sales AS
+	
+	SELECT
+	md.market_date
+	,market_day
+	,market_week
+	,market_year
+	,vendor_name
+	,SUM(quantity*cost_to_customer_per_qty) AS sales
+	
+	FROM new_customer_purchases cp
+	INNER JOIN market_date_info md
+		ON cp.market_date = md.market_date
+	INNER JOIN vendor v
+		ON cp.vendor_id = v.vendor_id
+	
+	WHERE md.market_date = date('now')
+
+	-- query a view
+SELECT*  from vendor_daily_sales
+-- 
+SELECT 
+market_year
+,market_week
+,sum(sales) AS weekly_sales
+
+FROM vendor_daily_sales -- the view</sql><sql name="SQL 12">INSERT INTO market_date_info
+VALUES ('2024-05-22', 'Wednesday', '21','2024','8:00 AM', '2:OO PM', 'special day','Spring', '28', '32', 1,0)
+
+UPDATE new_customer_purchases
+SET market_date = '2024-05-22' ---set to todays date if you want to run the view2
+
+SELECT * FROM vendor_daily_sales
+
+-- insert JSON
+
+DROP TABLE IF EXISTS temp.[new_json];
+
+CREATE TEMP TABLE IF NOT EXISTS temp.new_json
+(
+col1 BLOB
+);
+
+INSERT INTO temp.new_json(col1)
+VALUES('[
+    {
+        &quot;country&quot;: &quot;Afghanistan&quot;,
+        &quot;city&quot;: &quot;Kabul&quot;
+    },
+    {
+        &quot;country&quot;: &quot;Albania&quot;,
+        &quot;city&quot;: &quot;Tirana&quot;
+    }]');
+	
+SELECT key
+,JSON_EXTRACT(value,'$.country') as country
+,JSON_EXTRACT(value,'$.city') as city
+
+FROM (
+	SELECT * 
+	FROM new_json,JSON_EACH(new_json.col1, '$')
+) x
+
+
+
+--CROSS JOIN
+
+SELECT vendor_id, product_id
+FROM vendor
+CROSS JOIN product;
+
+
+
+
+
+
+
+</sql><sql name="SQL 13">DROP TABLE IF EXISTS temp.[new_json];
+
+CREATE TEMP TABLE IF NOT EXISTS temp.new_json
+(
+col1 BLOB
+);
+
+INSERT INTO temp.new_json(col1)
+VALUES('[
+    {
+        &quot;country&quot;: &quot;Afghanistan&quot;,
+        &quot;city&quot;: &quot;Kabul&quot;
+    },
+    {
+        &quot;country&quot;: &quot;Albania&quot;,
+        &quot;city&quot;: &quot;Tirana&quot;
+    }]');
+	
+SELECT key
+,JSON_EXTRACT(value,'$.country') as country
+,JSON_EXTRACT(value,'$.city') as city
+
+FROM (
+	SELECT * 
+	FROM new_json,JSON_EACH(new_json.col1, '$')
+) x</sql><sql name="SQL 14">-- COALESCE
+/* 1. Our favourite manager wants a detailed long list of products, but is afraid of tables! 
+We tell them, no problem! We can produce a list with all of the appropriate details. 
+
+Using the following syntax you create our super cool and not at all needy manager a list:
+
+SELECT 
+product_name || ', ' || product_size|| ' (' || product_qty_type || ')'
+FROM product
+
+But wait! The product table has some bad data (a few NULL values). 
+Find the NULLs and then using COALESCE, replace the NULL with a 
+blank for the first problem, and 'unit' for the second problem. 
+
+HINT: keep the syntax the same, but edited the correct components with the string. 
+The `||` values concatenate the columns into strings. 
+Edit the appropriate columns -- you're making two edits -- and the NULL rows will be fixed. 
+All the other rows will remain the same.) */
+
+-- checking the values in the product table
+SELECT* from product
+
+-- if product size is blank, then replace with blank. If product_qty_type is blank, then replace with unit.
+SELECT 
+    product_name || ', ' || 
+    COALESCE(product_size, '') || ' (' || 
+    COALESCE(product_qty_type, 'unit') || ')'
+FROM product;
+
+
+--Windowed Functions
+/* 1. Write a query that selects from the customer_purchases table and numbers each customer’s  
+visits to the farmer’s market (labeling each market date with a different number). 
+Each customer’s first visit is labeled 1, second visit is labeled 2, etc. 
+
+You can either display all rows in the customer_purchases table, with the counter changing on
+each new market date for each customer, or select only the unique market dates per customer 
+(without purchase details) and number those visits. 
+HINT: One of these approaches uses ROW_NUMBER() and one uses DENSE_RANK(). */
+
+-- displays visit number (non-unique per customer)
+SELECT
+    customer_id,
+    market_date,
+    ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY market_date) AS visit_number
+FROM customer_purchases;
+
+-- displays visit number (unique per customer)
+
+SELECT 
+    customer_id,
+    market_date,
+    DENSE_RANK() OVER (PARTITION BY customer_id ORDER BY market_date) AS visit_number
+FROM (
+    SELECT DISTINCT customer_id, market_date --using a subquery to get a list of distinct customer ids and market dates first
+    FROM customer_purchases
+) AS unique_visits;
+
+
+
+/* 2. Reverse the numbering of the query from a part so each customer’s most recent visit is labeled 1, 
+then write another query that uses this one as a subquery (or temp table) and filters the results to 
+only the customer’s most recent visit. */
+
+--create a query to get the reversed visit number
+SELECT 
+customer_id,
+market_date,
+DENSE_RANK() OVER (PARTITION BY customer_id ORDER BY market_date DESC) AS most_recent_visit_number -- sort by market_date desc 
+FROM(
+SELECT DISTINCT customer_id, market_date FROM customer_purchases) AS unique_visits; --unique list of customer_id and market_date
+
+--filter to the most recent visit
+
+SELECT customer_id, market_date
+FROM(
+SELECT 
+customer_id,
+market_date,
+DENSE_RANK() OVER (PARTITION BY customer_id ORDER BY market_date DESC) AS most_recent_visit_number -- sort by market_date desc 
+FROM(
+SELECT DISTINCT customer_id, market_date FROM customer_purchases) AS unique_visits
+) AS ranked_visits
+WHERE most_recent_visit_number = 1;
+
+
+/* 3. Using a COUNT() window function, include a value along with each row of the 
+customer_purchases table that indicates how many different times that customer has purchased that product_id. */
+
+SELECT
+    customer_id,
+    product_id,
+    COUNT(*) OVER (PARTITION BY customer_id, product_id) AS purchase_count
+FROM customer_purchases;
+
+
+-- String manipulations
+/* 1. Some product names in the product table have descriptions like &quot;Jar&quot; or &quot;Organic&quot;. 
+These are separated from the product name with a hyphen. 
+Create a column using SUBSTR (and a couple of other commands) that captures these, but is otherwise NULL. 
+Remove any trailing or leading whitespaces. Don't just use a case statement for each product! 
+
+| product_name               | description |
+|----------------------------|-------------|
+| Habanero Peppers - Organic | Organic     |
+
+Hint: you might need to use INSTR(product_name,'-') to find the hyphens. INSTR will help split the column. */
+
+
+SELECT
+    product_name,
+    TRIM(SUBSTR(product_name, INSTR(product_name, '-') + 1)) AS description
+FROM product;
+
+
+/* 2. Filter the query to show any product_size value that contain a number with REGEXP. */
+
+SELECT *
+FROM product
+WHERE product_size REGEXP '[0-9]';
+
+-- UNION
+/* 1. Using a UNION, write a query that displays the market dates with the highest and lowest total sales.
+
+HINT: There are a possibly a few ways to do this query, but if you're struggling, try the following: 
+1) Create a CTE/Temp Table to find sales values grouped dates; 
+2) Create another CTE/Temp table with a rank windowed function on the previous query to create 
+&quot;best day&quot; and &quot;worst day&quot;; 
+3) Query the second temp table twice, once for the best day, once for the worst day, 
+with a UNION binding them. */
+
+--Find the Market Date with the Highest Total Sales: 
+
+
+-- CTE to get sales values grouped dates
+WITH TotalSalesByDate AS (
+    SELECT 
+        market_date,
+        SUM(quantity * cost_to_customer_per_qty) AS total_sales
+    FROM customer_purchases
+    GROUP BY market_date
+)
+
+--CTE 2 to rank sales
+, RankedSales AS(
+SELECT
+market_date,
+total_sales,
+RANK() OVER (ORDER BY total_sales DESC) AS rank_desc,
+RANK() OVER (ORDER BY total_sales ASC) AS rank_asc
+FROM
+TotalSalesByDate)
+SELECT * FROM RankedSales;
+
+
+--Find the best and worst day: FULL QUERY BELOW
+
+WITH TotalSalesByDate AS (
+    SELECT 
+        market_date,
+        SUM(quantity * cost_to_customer_per_qty) AS total_sales
+    FROM customer_purchases
+    GROUP BY market_date
+)
+
+--CTE 2 to rank sales
+, RankedSales AS(
+SELECT
+market_date,
+total_sales,
+RANK() OVER (ORDER BY total_sales DESC) AS rank_desc,
+RANK() OVER (ORDER BY total_sales ASC) AS rank_asc
+FROM
+TotalSalesByDate)
+SELECT market_date, total_sales,  'Highest Sales' AS sales_type
+FROM RankedSales
+WHERE rank_desc =1 --highest sales
+
+UNION ALL
+
+SELECT market_date, total_sales,  'Lowest Sales' AS sales_type
+FROM RankedSales
+WHERE rank_asc =1 --lowest sales;
+
+
+
+</sql><sql name="SQL 15">-- Cross Join
+/*1. Suppose every vendor in the `vendor_inventory` table had 5 of each of their products to sell to **every** 
+customer on record. How much money would each vendor make per product? 
+Show this by vendor_name and product name, rather than using the IDs.
+
+HINT: Be sure you select only relevant columns and rows. 
+Remember, CROSS JOIN will explode your table rows, so CROSS JOIN should likely be a subquery. 
+Think a bit about the row counts: how many distinct vendors, product names are there (x)?
+How many customers are there (y). 
+Before your final group by you should have the product of those two queries (x*y).  */
+
+
+-- join 'vendor_inventory' with 'product' and 'vendor' first to get product names and vendor names
+
+
+SELECT v.vendor_name, 
+				 p.product_name,
+				 vi.original_price
+FROM vendor_inventory vi
+JOIN product p ON vi.product_id = p.product_id
+JOIN vendor v ON vi.vendor_id = v.vendor_id
+
+-- Final query, wrap the above code as vendor_products and perform the cross check and calculate the total revenue
+ WITH vendor_products AS (
+    SELECT
+        v.vendor_name,
+        p.product_name,
+        vi.original_price
+    FROM
+        vendor_inventory vi
+    JOIN
+        product p ON vi.product_id = p.product_id
+    JOIN
+        vendor v ON vi.vendor_id = v.vendor_id
+),
+cross_joined AS( --Wrap the cross join query 
+SELECT
+    vp.vendor_name,
+    vp.product_name,
+    vp.original_price,
+    c.customer_id
+FROM
+    vendor_products vp
+CROSS JOIN
+    customer c
+)
+SELECT --calculate the total revenue assuming each customer buys 5 products
+	vendor_name,
+	product_name,
+	SUM(5* original_price) AS total_revenue
+FROM cross_joined
+GROUP BY vendor_name, product_name
+ORDER BY vendor_name, product_name;
+
+-- no. of unique customers =26
+SELECT count(DISTINCT customer_id) FROM customer
+ 
+-- no. of unique vendors = 9
+SELECT count(DISTINCT vendor_id) FROM vendor
+
+-- no. of unique products = 23
+SELECT count(DISTINCT product_id) FROM product
+
+
+-- INSERT
+/*1.  Create a new table &quot;product_units&quot;. 
+This table will contain only products where the `product_qty_type = 'unit'`. 
+It should use all of the columns from the product table, as well as a new column for the `CURRENT_TIMESTAMP`.  
+Name the timestamp column `snapshot_timestamp`. */
+
+DROP TABLE IF EXISTS product_units;
+CREATE TEMP TABLE product_units AS
+SELECT *,
+CURRENT_TIMESTAMP AS snapshot_timestamp
+FROM product WHERE product_qty_type = 'unit';
+
+
+/*2. Using `INSERT`, add a new row to the product_units table (with an updated timestamp). 
+This can be any product you desire (e.g. add another record for Apple Pie). */
+
+INSERT INTO product_units
+VALUES (30, 'Instant Noodles', 'small', '10', 'unit', '2024-05-24 10:37:46');
+
+
+-- DELETE
+/* 1. Delete the older record for the whatever product you added. 
+
+HINT: If you don't specify a WHERE clause, you are going to have a bad time.*/
+
+DELETE FROM product_units
+--SELECT * FROM product_units 
+WHERE product_id = 30;
+
+-- UPDATE
+/* 1.We want to add the current_quantity to the product_units table. 
+First, add a new column, current_quantity to the table using the following syntax.
+
+ALTER TABLE product_units
+ADD current_quantity INT;
+
+Then, using UPDATE, change the current_quantity equal to the last quantity value from the vendor_inventory details.
+
+HINT: This one is pretty hard. 
+First, determine how to get the &quot;last&quot; quantity per product. 
+Second, coalesce null values to 0 (if you don't have null values, figure out how to rearrange your query so you do.) 
+Third, SET current_quantity = (...your select statement...), remembering that WHERE can only accommodate one column. 
+Finally, make sure you have a WHERE statement to update the right row, 
+	you'll need to use product_units.product_id to refer to the correct row within the product_units table. 
+When you have all of these components, you can run the update statement. */
+
+ALTER TABLE product_units
+ADD current_quantity INT;
+
+-- find the latest quantity from vendor_inventory
+SELECT product_id, quantity, 
+ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY market_date DESC) AS rn
+FROM vendor_inventory
+
+-- update the 'current_quantity' in the product_units table with the latest quantity
+WITH LatestQty AS(
+SELECT product_id, quantity, 
+ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY market_date DESC) AS rn
+FROM vendor_inventory
+)
+
+UPDATE product_units
+SET current_quantity = (
+SELECT COALESCE(quantity, 0) --if the quantity value is null, return 0
+FROM LatestQty
+WHERE LatestQty.product_id = product_units.product_id
+AND rn = 1
+);
+</sql><current_tab id="8"/></tab_sql></sqlb_project>
